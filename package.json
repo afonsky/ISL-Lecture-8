@@ -1,0 +1,19 @@
+{
+  "name": "slidev-addon-ultracharger-demo",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open --log 'info'",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.42.11",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "slidev-addon-remoji": "github:twitwi/slidev-addon-remoji",
+    "slidev-addon-ultracharger": "github:twitwi/slidev-addon-ultracharger"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.38.1"
+  }
+}
